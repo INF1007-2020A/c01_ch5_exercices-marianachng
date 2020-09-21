@@ -12,7 +12,7 @@ def convert_to_absolute() -> float:
 def use_prefixes() -> List[str]:
     prefixes, suffixes = 'JKLMNOP', 'ack'
 
-    result = []
+    result = [] 
     #itterable
     for letter in prefixes:
         result.append(letter + suffixes)
