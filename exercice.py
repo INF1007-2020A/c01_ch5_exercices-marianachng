@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+import math
 from typing import List
 
 
@@ -36,11 +36,14 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    return 0
+    return math.factorial(number)
 
 
 def use_continue() -> None:
-    pass
+    for i in range(1,11):
+        if i == 5:
+            continue
+        print(i)
 
 
 def main() -> None:
