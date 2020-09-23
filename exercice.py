@@ -31,7 +31,6 @@ def prime_integer_summation() -> int:
                 is_prime = False
         if is_prime:
             primes.append(i)
-
         i += 1
     return sum(primes)
 
